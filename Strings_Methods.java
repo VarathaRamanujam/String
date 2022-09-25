@@ -13,14 +13,24 @@ public class Strings_Methods {
 //		obj.spilit(' ');
 		obj.length();
 		
-	
+	     
+
+
+
+
+
+
 	}
 
 	private void length() {
-		String name = "Varatha Ramanujam C";
+		String name = "Varathe Ramanujam C";
+		String name1 = "Varatha Ramanujam C";
 		int index=0;
 		char [] c =name.toCharArray();
-		
+		System.out.println(name);
+//		System.out.println(name.codePointBefore(1));
+//		System.out.println(name.codePointAt(0));
+//		System.out.println(c[0]);
 //		while(name.charAt(index)==name.endsWith("C")) {
 //			index++;
 //			continue;
@@ -58,12 +68,12 @@ public class Strings_Methods {
 	System.out.println(c);
 }
 
-	private void endWith(String s) {
+private void endWith(String s) {
 		 char [] c=s.toCharArray();		    
 		    System.out.println(c[c.length-1]);
 }
 
-	private void startWith(String s) {
+private void startWith(String s) {
 		 char [] c=s.toCharArray();		    
 		    System.out.println(c[0]);
 }

@@ -10,7 +10,7 @@ public class String_encrypt {
 		//obj.String_encrypt_4();
 		//obj.String_encrypt_5();
 		//obj.String_encrypt_6();
-		obj.String_encrypt_7();
+		//obj.String_encrypt_7();
 
 	}
 
