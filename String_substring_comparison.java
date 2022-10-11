@@ -22,6 +22,8 @@ public class String_substring_comparison {
 //		for(int i=0;i<ls.length;i++) {	
 //			System.out.println(ls[i]);				
 //	}
+        
+        
 		for(int i=0;i<ls.length;i++) {
 			//Arrays.sort(ls);
 			//System.out.println(ls[0].charAt(index));
