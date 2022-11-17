@@ -6,7 +6,19 @@ public class String_Anagram {
 		String_Anagram obj = new String_Anagram();
 //		obj.String_Anagram_without_number();
 //		obj.String_Anagram_with_number();
-		obj.String_palimrone();
+//		obj.String_palimrone();
+		obj.Pradeep();
+	}
+
+	private void Pradeep() {
+    String s="Pradeep";	
+    for(int i=0;i<s.length();i++) {
+    	String ss="";
+    	int a=0;
+    	for(int j=s.length()-1;j>=i;j--) {
+    		ss+=s.charAt(a++);
+    }System.out.println(ss);
+	}
 	}
 
 	private void String_palimrone() {
